@@ -107,7 +107,7 @@ SiStripBadStrip* SiStripQualityHotStripIdentifierRoot::getNewObject(){
     bookHistos();
   
     SiStripQuality* qobj = new SiStripQuality();
-    theIdentifier2->extractBadAPVs(qobj,ClusterPositionHistoMap,SiStripQuality_);
+    theIdentifier2->extractBadAPVs(qobj,ClusterPositionHistoMap);
     
     //----------
 
